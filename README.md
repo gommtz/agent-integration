@@ -67,6 +67,11 @@ export AGENT_ENDPOINT=<your_agent_endpoint>
 ```
 Replace <your_agent_id>, <your_chatbot_id>, and <your_agent_endpoint> with the actual values provided by the GenAI agent parameters you're using.
 
+Load the .env file:
+```bash
+source .env
+```
+
 Step 6: Running the Application
 Once you've set up the environment and installed the required dependencies, you can run your application. The exact command will depend on your project, but typically it will be something like:
 
