@@ -1,6 +1,6 @@
-# Project Setup Guide
+# DigitalOcean GenAI - Python integration
 
-This README file provides instructions for setting up and configuring the project on an Ubuntu system.
+This file provides instructions for setting up and configuring the project on an Ubuntu system.
 
 ## Prerequisites
 
@@ -65,7 +65,7 @@ export DATA_AGENT_ID=<your_agent_id>
 export DATA_CHATBOT_ID=<your_chatbot_id>
 export AGENT_ENDPOINT=<your_agent_endpoint>
 ```
-Replace <your_agent_id>, <your_chatbot_id>, and <your_agent_endpoint> with the actual values provided by the GenAI agent parameters you're using.
+Replace <your_agent_id>, <your_chatbot_id>, and <your_agent_endpoint> with the actual values provided by the GenAI agent you're using.
 
 Load the .env file:
 ```bash
@@ -73,7 +73,7 @@ source .env
 ```
 
 Step 6: Running the Application
-Once you've set up the environment and installed the required dependencies, you can run your application. The exact command will depend on your project, but typically it will be something like:
+Once you've set up the environment and installed the required dependencies, you can run your application.
 
 ```bash
 python3 main.py
