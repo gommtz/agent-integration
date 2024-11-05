@@ -8,6 +8,7 @@ Before you begin, ensure you have the following installed:
 
 - Python 3.x
 - pip (Python package installer)
+- set to Public your GenAI agent endpoint
 
 If you don't have Python or pip installed, you can install them using the following commands:
 
